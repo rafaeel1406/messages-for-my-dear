@@ -4,7 +4,6 @@ body {
     margin: 0;
     padding: 20px;
     box-sizing: border-box;
-    overflow: hidden;
     position: relative;
 }
 
@@ -29,7 +28,8 @@ h1 {
     margin-bottom: 20px;
     padding: 20px;
     transition: transform 0.2s;
-    overflow: hidden; /* Garantir que a imagem não saia dos limites do card */
+    overflow: hidden;
+    /* Garantir que a imagem não saia dos limites do card */
 }
 
 .card:hover {
@@ -38,8 +38,10 @@ h1 {
 
 .message-image {
     width: 100%;
-    height: 300px; /* Define uma altura fixa para todas as imagens */
-    object-fit: cover; /* Faz com que a imagem cubra totalmente a área definida */
+    height: 300px;
+    /* Define uma altura fixa para todas as imagens */
+    object-fit: cover;
+    /* Faz com que a imagem cubra totalmente a área definida */
     border-radius: 10px;
     margin-bottom: 15px;
 }
@@ -81,7 +83,8 @@ h1 {
     }
 
     .message-image {
-        height: 200px; /* Ajuste a altura para dispositivos móveis se necessário */
+        height: 200px;
+        /* Ajuste a altura para dispositivos móveis se necessário */
     }
 }
 
@@ -128,6 +131,7 @@ h1 {
         transform: translateY(0) rotate(45deg);
         opacity: 1;
     }
+
     100% {
         transform: translateY(100vh) rotate(45deg);
         opacity: 0;
