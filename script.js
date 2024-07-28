@@ -1,8 +1,3 @@
-import { Analytics } from '@vercel/analytics';
-
-// Inicialize o Analytics
-Analytics({ projectId: 'prj_odA1kZtRdRzrCD8zhMopGoJTSn4U' });
-
 document.addEventListener('DOMContentLoaded', () => {
     const heartsContainer = document.getElementById('hearts-container');
 
